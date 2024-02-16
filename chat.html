@@ -1,21 +1,7 @@
 <html>
-<script type='text/javascript'>
-	function initEmbeddedMessaging() {
-		try {
-			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
-
-			embeddedservice_bootstrap.init(
-				'00DGB000001pUK4',
-				'Bugga_Deploy',
-				'https://rajupetluri4-dev-ed.develop.my.site.com/ESWBuggaDeploy1708065139607',
-				{
-					scrt2URL: 'https://rajupetluri4-dev-ed.develop.my.salesforce-scrt.com'
-				}
-			);
-		} catch (err) {
-			console.error('Error loading Embedded Messaging: ', err);
-		}
-	};
-</script>
-<script type='text/javascript' src='https://rajupetluri4-dev-ed.develop.my.site.com/ESWBuggaDeploy1708065139607/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<a id="liveagent_button_online_573GB000000gCVv" href="javascript://Chat" style="display: none;" onclick="liveagent.startChat('573GB000000gCVv')"><!-- Online Chat Content --></a><div id="liveagent_button_offline_573GB000000gCVv" style="display: none;"><!-- Offline Chat Content --></div><script type="text/javascript">
+if (!window._laq) { window._laq = []; }
+window._laq.push(function(){liveagent.showWhenOnline('573GB000000gCVv', document.getElementById('liveagent_button_online_573GB000000gCVv'));
+liveagent.showWhenOffline('573GB000000gCVv', document.getElementById('liveagent_button_offline_573GB000000gCVv'));
+});</script>
 </html>
